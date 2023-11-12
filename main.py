@@ -15,7 +15,7 @@ from inline.inline import language, who, important
 from inline.inline import language, who
 
 # Your Telegram API token
-TOKEN = '6541269609:AAGiYz0voguuYywc9s_qD3E6skJXVNHvhq0'
+TOKEN = 'You_token'
 # Initialize the bot and dispatcher
 bot = Bot(token=TOKEN, parse_mode='HTML')
 dp = Dispatcher(bot, storage=MemoryStorage())
@@ -224,6 +224,7 @@ async def otziv(message: types.Message, state=FSMContext):
     # await bot.send_message(chat_id=sharif_id, text=user_text)
 
 # assalomu alaykum
+# vaalaykum salom
 if __name__ == '__main__':
     from aiogram import executor
 
